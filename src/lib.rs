@@ -98,7 +98,7 @@ impl Opcode {
             0x76 => Ok(Opcode::OpDup),
             0x00 => Err("Invalid opcode: 0x00".to_string()),
             _ => Ok(Opcode::OpInvalid),
-        } 
+        }
     }
 }
 
